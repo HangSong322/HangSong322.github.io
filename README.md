@@ -1,5 +1,5 @@
 # HangSong322.github.io
-<p>this is a change</p><!doctype html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
