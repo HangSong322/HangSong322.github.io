@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
+    font-size: 200.xrem/* x.xrem  (rem is a unit of measure) */;
     color:currentColor /* #xxxxxx */;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 5.xrem /* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size: 100.xrem/* smaller */;
 }
