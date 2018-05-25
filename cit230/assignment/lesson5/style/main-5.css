@@ -98,11 +98,6 @@ main section {
     background-color: lightskyblue;
 }
 
-main h3 {
-    background-color: white;
-    min-width: 700px;
-}
-
 main .current {
     margin: 0 0 0 10%;
     text-align: left
@@ -133,6 +128,7 @@ main article img {
 
 main article h3 {
     margin: 10% 0 5% 0;
+    text-align: center;
 }
 
 main article p {
