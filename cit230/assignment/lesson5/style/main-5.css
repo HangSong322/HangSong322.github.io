@@ -1,16 +1,14 @@
-/* Delete these CSS comments after reading. */
-
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
 * {
+    margin: auto;
     box-sizing: border-box;
+    max-width: 95%;
 }
 
 /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
     font-size: 16px;
-    ____________/* Declare the base font-family */
+    font-family: monospace/* Declare the base font-family */
 }
 
 header,
@@ -18,33 +16,63 @@ nav,
 main,
 footer {
     /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-    max-width: ______;
+    max-width: 99%;
     /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header {}
 
-header h1 {}
 
-header img {}
+header h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 50px;
+}
+
+header .subheading {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 15px;
+    margin: 0 50% 1% 5%;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    float: left;
+}
 
 header .subheading {}
 
-nav {}
+nav {
+    background-color: #00BFFF;
+}
 
 nav button {}
 
-nav ul {}
+nav ul {
+    text-align: center;
+}
 
-nav ul li {}
+nav ul li {
+    display: inline;
+    display: none;
+}
 
-nav ul li a {}
+nav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+    font-stretch: extra-expanded;
+}
 
 nav ul li.active a {}
 
-nav ul li a:hover {}
+nav ul li a {}
 
-main {}
+main {
+    margin: auto;
+    width: 95%;
+    box-sizing: border-box;
+    text-align: center;
+}
 
 main h2 {}
 
@@ -53,6 +81,71 @@ main figure {
     width: 96%;
 }
 
-main figure img {}
+main figure img {
+    width: 60%;
+}
 
-footer {}
+.weather-summary {
+    max-width: 650px;
+}
+
+.highlow {
+    text-align: right;
+    margin: 0 12% -5% 0;
+}
+
+main section {
+    background-color: lightskyblue;
+}
+
+main h3 {
+    background-color: white;
+    min-width: 700px;
+}
+
+main .current {
+    margin: 0 0 0 10%;
+    text-align: left
+}
+
+main .current img {
+    width: 20%;
+}
+
+.conditions {
+    text-align: right;
+    margin: -5% 12% 5% 0;
+}
+
+.forecast {
+    background-color: white;
+    display: none;
+}
+
+main article {
+    margin: 0 0 10% 0;
+}
+
+main article img {
+    float: right;
+    width: 30%;
+}
+
+main article h3 {
+    margin: 10% 0 5% 0;
+}
+
+main article p {
+    text-align: left;
+}
+
+footer {
+    background-color: #00BFFF;
+    color: floralwhite;
+    font-size: 12px
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
