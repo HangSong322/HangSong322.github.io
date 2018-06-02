@@ -52,9 +52,12 @@ nav ul {
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
+nav ul.hide{
     display: none;
+}
+
+nav ul li{
+    display: block;
 }
 
 nav ul li a {
