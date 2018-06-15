@@ -88,7 +88,9 @@ main h1{
 main h2 {
     font-size: 15px;
     font-weight: 100;
-    margin-bottom: 10%;
+    width: 60%;
+    margin-bottom: 10%;   
+    text-indent: 50px;
 }
 
 main figure {
