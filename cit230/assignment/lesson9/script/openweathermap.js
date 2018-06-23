@@ -1,12 +1,12 @@
 var weatherObj = new XMLHttpRequest();
 
-weatherObj.open('GET','http://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
-weatherObj.responseType = 'json';
+weatherObj.open('GET','//api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
+//weatherObj.responseType = 'json';
 weatherObj.send();
 
 weatherObj.onload = function() {
-//    var weatherInfo = JSON.parse(weatherObj.responseText);
-    var weatherInfo = weatherObj.response;
+    var weatherInfo = JSON.parse(weatherObj.responseText);
+//    var weatherInfo = weatherObj.response;
     console.log(weatherInfo);
     
     document.getElementById('highTem').innerHTML = weatherInfo.main.temp_max;
@@ -18,14 +18,13 @@ weatherObj.onload = function() {
     document.getElementById('weatherIcon').src = iconPath;
     document.getElementById('humidity').innerHTML = weatherInfo.main.humidity;
     document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
-//    var weatherData = request.response;
 //    showData(weatherData);
 }
 
 
 var forecast = new XMLHttpRequest();
 
-forecast.open('GET','http://api.openweathermap.org/data/2.5/forecast?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true);
+forecast.open('GET','//api.openweathermap.org/data/2.5/forecast?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true);
 //forecast.responseType = 'json';
 forecast.send();
 
