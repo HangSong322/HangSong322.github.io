@@ -20,3 +20,17 @@ weatherObj.onload = function() {
 //    var weatherData = request.response;
 //    showData(weatherData);
 }
+
+
+var forecast = new XMLHttpRequest();
+
+forecast.open('GET','http://api.openweathermap.org/data/2.5/forecast?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
+//weatherObj.responseType = 'json';
+forecast.send();
+
+forecast.onload = function() {
+    var weatherForecast = JSON.parse(forecast.responseText);
+    console.log(weatherForecast);
+    
+ //   document.getElementById('forcastDesc').innerHTML = ;
+}
