@@ -32,5 +32,5 @@ forecast.onload = function() {
     var weatherForecast = JSON.parse(forecast.responseText);
     console.log(weatherForecast);
     
- //   document.getElementById('forcastDesc').innerHTML = ;
+    document.getElementById('forcastDesc').innerHTML = weatherForecast.list[0].main.temp + " Fahrenheit and" + weatherForecast.list[0].weather["0"].description + " in 3 hours";
 }
