@@ -1,11 +1,12 @@
 var weatherObj = new XMLHttpRequest();
 
 weatherObj.open('GET','http://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
-//weatherObj.responseType = 'json';
+weatherObj.responseType = 'json';
 weatherObj.send();
 
 weatherObj.onload = function() {
-    var weatherInfo = JSON.parse(weatherObj.responseText);
+//    var weatherInfo = JSON.parse(weatherObj.responseText);
+    var weatherInfo = weatherObj.response;
     console.log(weatherInfo);
     
     document.getElementById('highTem').innerHTML = weatherInfo.main.temp_max;
