@@ -1,6 +1,6 @@
 var weatherObj = new XMLHttpRequest();
 
-weatherObj.open('GET','http://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
+weatherObj.open('GET','//api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=b93e92055f66c2277db075668d74c47a&units=imperial', true)
 //weatherObj.responseType = 'json';
 weatherObj.send();
 
