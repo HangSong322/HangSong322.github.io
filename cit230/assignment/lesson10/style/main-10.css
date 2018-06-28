@@ -71,7 +71,9 @@ nav ul li a {
     font-stretch: extra-expanded;
 }
 
-nav ul li.active a {}
+nav ul li.active a {
+    background-color: azure;
+}
 
 nav ul li a {}
 
@@ -174,6 +176,7 @@ footer {
 footer {
     margin: auto;
     text-align: center;
+    margin-top: 20px;
 }
 
 .gallary{
@@ -201,4 +204,7 @@ form div{
 fieldset {
     width: 400px;
     margin: 5%;
+}
+.addComment {
+    text-align: left;
 }

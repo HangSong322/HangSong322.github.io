@@ -18,6 +18,14 @@ weatherObj.onload = function() {
     document.getElementById('weatherIcon').src = iconPath;
     document.getElementById('humidity').innerHTML = weatherInfo.main.humidity;
     document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
+    
+    var high = weatherInfo.main.temp_max;
+    var low = weatherInfo.main.temp_min;
+    var t = (high + low) / 2;
+    var s = weatherInfo.wind.speed;
+    var f = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t  * Math.pow(s, 0.16);
+
+    document.getElementById('windchill').innerHTML = Math.round(f);
 //    showData(weatherData);
 }
 
