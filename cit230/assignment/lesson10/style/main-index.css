@@ -1,0 +1,141 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 95%;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 15px;
+    font-family: monospace/* Declare the base font-family */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 99%;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+header h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 70px;
+    margin-bottom: 0;
+    
+}
+
+.subheading {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 20%;
+}
+header img {
+    margin: 2% 3% 0 7%;
+    width: 50px;
+    height: 60px;
+
+}
+
+nav {
+    background-color: #00BFFF;
+}
+
+nav button {}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+nav ul li{
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+    font-stretch: extra-expanded;
+}
+
+nav ul li.active a {}
+
+nav ul li a {}
+
+main article{
+    max-width: 300px;
+    margin: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: dotted;
+/*
+    display: flex;
+    flex-flow: column;
+*/
+}
+
+main article:hover {
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+main article img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+
+main article h2 {
+    margin: 0 0 5% 0;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+main article p {
+    text-align: left;   
+}
+
+main article {
+    font-size: 12px;
+    margin-bottom: 5px
+}
+
+#weatherStory{
+    text-align: center;
+    max-width: 90.2%;
+    margin-top: 20px
+    
+}
+
+#story{
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #00BFFF;
+    color: floralwhite;
+    font-size: 12px
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}

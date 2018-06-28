@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+      <meta charset="utf-8">
+      <title>Camping Weather</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style/normalize-10.css">
+      <link rel="stylesheet" href="style/main-index.css">
+      <link rel="stylesheet" href="style/medium-10.css">
+      <link rel="stylesheet" href="style/large-10.css">
+      <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="image/camplogo.png" alt="logo">
+        <h1>The Camping Weather</h1>
+        <div class="subheading"> Check the weather for your next camping trip </div>
+    </header>
+    <nav>
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="navMenue" class="hide">
+            <li><a href="index.html"> Home  </a></li>
+            <li><a href="franklin.html"> Franklin  </a></li>
+            <li><a href="greenville.html">  Greenville  </a></li>
+            <li><a href="springdield.html"> Springfield  </a></li>
+            <li><a href="/cit230/assignment/lesson8/stormcenter.html"> Storm Center  </a></li>
+            <li><a href="gallary.html"> Gallery  </a></li>
+        </ul>	
+    </nav>
+    
+    <main>
+        <h2 id="weatherStory">Weather Story</h2>
+        <p id="story">Nam et tellus a lacus tincidunt tincidunt. Nunc vel urna justo. In faucibus nulla sit amet nunc malesuada, nec porta ipsum laoreet. Vestibulum id leo pulvinar, lobortis ex hendrerit, mattis erat. Phasellus in erat accumsan arcu consectetur porta. </p>
+                
+        <section class="townsInfo">
+            
+        </section>
+    </main>
+    
+    <footer>
+        <section class="contact">
+          Contact information placeholder
+          999.999.9999
+          123 Main St. Anytown, US 99999
+          Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | The Camping Weather | <span id="currentdate"></span>
+        </section>
+    </footer>
+    
+    <script src="script/hamburger.js"></script>
+    <script src="script/currentdate.js"></script>
+    <script src="script/towndata.js"></script>
+    <script src="script/modularize.js"></script>
+    <script src="script/w3.js"></script>
+    <script src="script/wayfinding.js"></script>
+    
+</body>
+</html>
