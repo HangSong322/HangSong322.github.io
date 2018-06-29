@@ -16,12 +16,12 @@
     section.forecast {
         display: block;
     }
-    .gallary {
+    .gallery {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: 1fr 1fr;
     }
-    .gallary img:hover {
+    .gallery img:hover {
         box-shadow: 5px 5px 10px gray;
     }
     

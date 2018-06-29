@@ -64,6 +64,8 @@ nav ul.hide{
 nav ul li:hover{
     display: flex;
     box-shadow: 1px 1px 1px gray;
+    width: 100px;
+    height: 30px;
 }
 
 nav ul li a {
@@ -73,6 +75,8 @@ nav ul li a {
 }
 
 nav ul li.active{
+    height: 34px;
+    min-width: 90px;
     background-color: darkslateblue;
     
 }
@@ -143,12 +147,15 @@ main article img {
 
 
 main article h3 {
-    margin: 10% 0 5% 0;
+/*    margin: 10% -20% 5% -20%;*/
+    margin-top: 100px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 main article p {
     text-align: left;
+    margin-left: -10%;
 }
 
 table {
@@ -179,12 +186,12 @@ footer {
     margin-top: 20px;
 }
 
-.gallary{
+.gallery{
     display: grid;
     grid-gap: 40px;
     grid-template-columns: 1fr;
 }
-.gallary img:hover {
+.gallery img:hover {
         box-shadow: 5px 5px 10px gray;
 }
 

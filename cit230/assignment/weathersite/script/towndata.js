@@ -44,13 +44,13 @@ function showData(jsonObj){
         }
         
         if (towns[i].name == 'Franklin') {
-            myImg.src = 'image/gallary1.jpg';
+            myImg.src = 'image/gallery1.jpg';
         }
         else if (towns[i].name == 'Greenville') {
-            myImg.src = 'image/gallary2.jpg';
+            myImg.src = 'image/gallery2.jpg';
         }
         else {
-            myImg.src = 'image/gallary3.jpg';
+            myImg.src = 'image/gallery3.jpg';
         }
         
         myArticle.appendChild(myH2);
