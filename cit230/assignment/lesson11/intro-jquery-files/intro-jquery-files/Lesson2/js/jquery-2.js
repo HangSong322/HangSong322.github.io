@@ -1,0 +1,3 @@
+$(function() {
+    alert("Hollo jQuery!")
+})
