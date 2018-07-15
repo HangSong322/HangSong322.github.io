@@ -1,0 +1,49 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    nav ul li {
+        display: flex;
+        background-color: darkgray;
+    }
+    
+
+    /* hamburger button does not need to be shown in the medium on up views */
+    section.forecast {}
+    /* show the 10-day forecast with the medium view and up */
+    #advpage img {
+        width: 70%;
+        height: 65%;
+    }
+    
+    #advpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+/*
+    section.forecast {
+        display: block;
+    }
+    .gallery {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery img:hover {
+        box-shadow: 5px 5px 10px gray;
+    }
+    
+    main .townsInfo{
+        display: block;
+    }
+    main article {
+        max-width: 600px;
+    }
+*/
+}

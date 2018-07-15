@@ -1,0 +1,307 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #5D5C61;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 15px;
+    font-family: monospace/* Declare the base font-family */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    /*    max-width: 100%;*/
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FEFEFE;
+}
+
+
+header h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 70px;
+    margin-bottom: 0;
+    background-color: #FEFEFE;
+
+}
+
+.subheading {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 20%;
+    background-color: #FEFEFE;
+}
+
+header img {
+    margin: 2% 3% 0 7%;
+    width: 100px;
+    height: 100px;
+
+}
+
+nav {
+    min-height: 15px;
+
+}
+
+nav button {}
+
+nav ul {
+    text-align: center;
+    background-color: darkgray;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li:hover {
+    display: flex;
+    box-shadow: 1px 1px 1px gray;
+    width: 70px;
+    height: 30px;
+    background-color: darkgrey;
+}
+
+nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-stretch: extra-expanded;
+    background-color: darkgrey;
+}
+
+nav ul li.active {
+    height: 34px;
+    min-width: 90px;
+    background-color: #7395AE;
+
+}
+
+nav ul li.active a {
+    background-color: #7395AE;
+
+}
+
+main {
+    /*    margin: auto;*/
+    /*    width: 95%;*/
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main .index div {
+    margin-top: 0;
+}
+
+/*
+main h2 {}
+
+main figure {}
+
+main figure img {}
+
+
+main section {}
+*/
+
+main .index {
+    display: block;
+    margin-top: 5%;
+    color: white;
+}
+
+main {
+    color: white;
+}
+
+main #adventure img,
+#product img,
+#event div,
+#service div {
+    margin-right: 0;
+    /*
+    margin-top: 0;
+    margin-bottom: 0;
+*/
+}
+
+main #event img,
+#service img,
+#adventure div,
+#product div {
+    margin-left: 0;
+    /*
+    margin-top: 0;
+    margin-bottom: 0;
+*/
+}
+
+#adventure img,
+#event img,
+#product img,
+#service img {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 40%;
+    height: 40%;
+}
+
+main .index h2,
+main .index p {
+    background-color: rgb(147, 142, 148, 0.3);
+    max-width: 550px;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+main .index h2 {
+    font-size: 90px;
+}
+
+main .index p {
+    font-size: 50px;
+    text-align: justify;
+}
+
+main #event p,
+main #service p {
+    text-align: right;
+}
+
+main #event h2 {
+    min-width: 420px;
+}
+
+main #subscribe {
+    display: flex;
+    background-color: rgb(147, 142, 148);
+    margin-bottom: 0;
+}
+
+main #subscribe h2,
+main #subscribe form div,
+main #subscribe form div label {
+    background-color: rgb(147, 142, 148);
+}
+
+main #subscribe form div input {
+    background-color: white;
+}
+
+main #subscribe form div {}
+
+main #subscribe form div label {
+    margin-bottom: 30px;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 30;
+    width: 150px;
+    display: inline-block;
+}
+
+main #subscribe form #bt-subscribe input {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 90;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #7395AE;
+}
+
+figure img {
+    margin: 0;
+    width: 100%;
+}
+
+main #advpage article img {
+    width: 90%;
+    height: auto;
+}
+
+#advpage {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main #advpage article {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main #advpage article h3 {
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
+
+main #advpage article p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    max-width: 80%;
+    text-align:justify;
+}
+
+main #advpage article .indent{
+    text-indent: 40px;
+}
+
+/*
+main #event img,
+#service img,
+#advanture div,
+#product div{
+    margin-left: -150px;
+}
+
+#event div,
+#service div {
+    
+}
+*/
+
+/*
+main section p {
+    background-color: rgb(147, 142, 148, 0.5);
+}
+*/
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody tr:first-child {
+    background-color: azure;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    /*    margin-top: 20px;*/
+    color: floralwhite;
+    font-size: 13px
+}
+
+footer section,
+span {
+    background-color: darkgray;
+}
