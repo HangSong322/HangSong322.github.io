@@ -12,15 +12,27 @@
         font-size: 40px;
         text-align: justify;
     }
-
+    main .index h2,
+    main .index p {
+        width: 550px;
+    }
     main #event p,
     main #service p {
         text-align: right;
     }
 
-    main #event h2 {
-        min-width: 420px;
+    main #event h2,
+    main #event p {
+        max-width: 420px;
     }
+    
+    main #event h2{
+        font-size: 70px;
+    }
+    main #event p{
+        font-size: 40px;
+    }
+
     main #advpage img {
         width: 80%;
         height: 75%;
@@ -40,21 +52,21 @@
     main #event-info {
         display: flex;
     }
-    
-    main #event-info form{
+
+    main #event-info form {
         margin-top: 2%;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

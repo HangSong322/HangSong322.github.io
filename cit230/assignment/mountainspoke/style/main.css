@@ -175,11 +175,11 @@ main .index p {
 }
 
 main .index h2 {
-    font-size: 90px;
+    font-size: 20px;
 }
 
 main .index p {
-    font-size: 50px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -190,7 +190,7 @@ main #service p {
 
 main #event h2 {
     min-width: 420px;
-    font-size: 70px;
+    font-size: 20px;
 }
 
 main #subscribe {
@@ -469,6 +469,7 @@ main iframe {
     width: 97%;
     margin-bottom: 3%;
 }
+
 /**/
 
 footer {
