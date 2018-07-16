@@ -37,7 +37,7 @@ header h1 {
 
 .subheading {
     font-family: 'IM Fell French Canon SC', serif;
-    font-size: 15px;
+    font-size: 20px;
     margin: 10px;
     margin-left: 20%;
     background-color: #FEFEFE;
@@ -182,6 +182,7 @@ main #service p {
 
 main #event h2 {
     min-width: 420px;
+    font-size: 70px;
 }
 
 main #subscribe {
@@ -238,6 +239,7 @@ main #advpage article {
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
+    background-color: 
 }
 
 main #advpage article h3 {
@@ -250,48 +252,170 @@ main #advpage article p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 17px;
     max-width: 80%;
-    text-align:justify;
+    text-align: justify;
 }
 
-main #advpage article .indent{
+main #advpage article .indent {
     text-indent: 40px;
 }
 
-/*
-main #event img,
-#service img,
-#advanture div,
-#product div{
-    margin-left: -150px;
+main #eventpage {
+    width: 97%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-#event div,
-#service div {
-    
-}
-*/
-
-/*
-main section p {
-    background-color: rgb(147, 142, 148, 0.5);
-}
-*/
-
-table {
-    border-collapse: collapse;
-    text-align: center;
+main #eventpage .eventpic {
+    width: 280px;;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
 }
 
-tr,
-th,
-td {
-    border: 1px solid black;
-    padding: 10px;
+main #eventpage .eventpic:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
-tbody tr:first-child {
-    background-color: azure;
+main #eventpage legend {
+    margin-left: 10%;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    /*    background-color: rgb(147, 142, 148, 0.3);*/
 }
+
+main #eventpage #event-header {
+    margin-top: 5%;
+}
+
+main #eventpage h3 {
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
+
+#event-info {
+    display: block;
+    background-color: rgb(147, 142, 148, 0.3);
+    font-family: 'Coda Caption', sans-serif;
+    margin-top: 5%;
+}
+
+main #eventpage #eventpg-img{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main #eventpage #eventpg-img img{
+/*    margin: 1%;*/
+}
+
+#event-info img {
+    margin-right: 0;
+}
+
+#event-info div {
+    margin-left: 0;
+    text-align: left;
+}
+
+#event-info div h4, #event-info div p {
+    text-align: left;
+    background-color: rgb(147, 142, 148, 0.3);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+#event-info div h4{
+    margin-top: 0;
+    font-size: 60px;
+}
+
+#event-info div p {
+    text-align: left;
+    font-size: 30px;
+}
+
+#event-info form div, #event-info form label {
+    text-align: left;
+    background-color: rgb(147, 142, 148, 0.3);
+}
+
+#event-info form div{
+    min-height: 32px;
+}
+
+#event-info form label{
+    align-content: center;
+    text-align: left;
+    width: 120px;
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#event-info form input, select {
+    width: 170px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+}
+
+main #eventpage #register-bt input {
+    background-color: #7395AE;
+    font-family: 'Coda Caption', sans-serif;
+    color: white;
+    width: 250px;
+    height: 50px;
+}
+
+main .sale-page {
+    margin-top: 0.5%;
+    width: 97%;
+}
+
+main .sale-page {
+    margin-bottom: 0.5%;
+}
+
+main .sale-page legend {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #7395AE;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+}
+
+main .sale-page div {
+    display: flex;
+}
+
+main .sale-page div img{
+/*    display: none;*/
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 35%;
+    height: 40%;;
+}
+
+main .sale-page div article {
+/*    display: none;*/
+    max-width: 550px;
+}
+
+main .sale-page div article p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main section .sale-page legend .sale-bt{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #7395AE;
+    color: white;
+    min-width: 100%;
+}
+
+
+/**/
 
 footer {
     margin: auto;

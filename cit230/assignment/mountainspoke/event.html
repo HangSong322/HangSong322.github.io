@@ -2,95 +2,138 @@
 <html lang="en-us">
 
 <head w3-include-html="modules/head.html">
-      <title>Greenville Weather</title>
+    <title>Mountain Spoke Events</title>
 </head>
 
 <body>
-    
+
     <header w3-include-html="modules/header.html">
     </header>
-    
+
     <nav w3-include-html="modules/navigation.html">
     </nav>
-    
+
     <main>
-        <h2>Greenville</h2>
+
         <figure>
-            <img src="image/franklin-original.jpg" alt="Franklin Original" size="90vw" srcset="image/franklin-original-large.jpg 1024w,
-                         image/franklin-original-medium.jpg 800w,
-                         image/franklin-original-small.jpg 400w">
+            <img src="image/event-head.jpg" alt="Event Head" size="90vw" srcset="image/event-head.jpg 1024w,
+                         image/event-head.jpg 800w,
+                         image/event-head.jpg 400w">
         </figure>
-
-        <section class="weather-summary">
-            <h3>Weather Summary</h3>
-            <div class="highlow">
-                <p>Current Tempereature: <span id="cTem"></span> &deg;F</p><br>
-                <p>High: <span id="highTem"></span>&deg;F</p><br>
-                <p>Low: <span id="lowTem"></span>&deg;F</p><br>
+        <fieldset id="eventpage">
+            <legend>Cycle the Continental Divide</legend>
+            
+            <div id="eventpg-img">
+                <img src="image/event4.jpg" alt="Event Picture" class="eventpic">
+                <img src="image/event3.jpg" alt="Event Picture" class="eventpic">
+                <img src="image/event2.jpg" alt="Event Picture" class="eventpic">
+                <img src="image/event1.jpg" alt="Event Picture" class="eventpic">
             </div>
-            <div class="current">
-                <p><span id="weatherDesc"></span></p>
-                <picture>
-                    <img src="" alt="placeholder" id="weatherIcon">
-                </picture>
+            
+            <h3 id="event-header"> Annual Cycle the Continental Divide</h3>
+            <h3> Every August 1</h3>
 
-            </div>
-            <div class="conditions">
-                <p>Humidity: <span id="humidity"></span>%</p><br>
-                <p>Wind Speed: <span id="windSpeed"></span> mph</p><br>
-                <p>Wind Chill: <span id="windchill"></span>&deg;F </p><br>
-                <p>3 hour Forecast: <span id="forcastDesc"></span></p>
-            </div>
-        </section>
+            <section id="event-info">
+                <img src="image/event-road.jpg" alt="Event Road">
+                <div>
+                    <h4>Only</h4>
+                    <h4>$299</h4>
+                    <p>For All</p>
+                    <p>levels</p>
+                </div>
 
-        <section class="forecast">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="10">Ten Day Forecast</th>
-                    </tr>
-                </thead>
+                <form action="thanks.html">
+                    <div>
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+                    </div>
 
-                <tbody>
-                    <tr>
-                        <th>Day 1</th>
-                        <th>Day 2</th>
-                        <th>Day 3</th>
-                        <th>Day 4</th>
-                        <th>Day 5</th>
-                        <th>Day 6</th>
-                        <th>Day 7</th>
-                        <th>Day 8</th>
-                        <th>Day 9</th>
-                        <th>Day 10</th>
-                    </tr>
-                    <tr>
-                        <td>89&deg;F</td>
-                        <td>87&deg;F</td>
-                        <td>78&deg;F</td>
-                        <td>75&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>79&deg;F</td>
-                        <td>83&deg;F</td>
-                        <td>85&deg;F</td>
-                        <td>89&deg;F</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="name@domain" required>
+                    </div>
 
-        <article>
-            <h3>Greenville, SC</h3>
-            <img src="image/gallery6.jpg" alt="Rainbow Picutre">
-            <p class="town-article">Nam eget tincidunt felis, in pretium mi. Suspendisse quis augue turpis. Integer sed nunc fermentum, elementum odio sed, molestie mauris. Sed id tellus quis nunc porta pretium. Proin hendrerit vulputate laoreet. Nam vestibulum sollicitudin lectus id posuere. Donec at cursus ligula, at lacinia turpis. Donec sed sapien placerat, molestie elit ac, aliquet est. Sed dignissim luctus aliquet. Donec tincidunt, lectus auctor feugiat varius, nunc leo ultrices elit, vitae accumsan tortor orci non erat. Nunc ex elit, hendrerit nec elementum venenatis, molestie ut sem. Phasellus a arcu vitae lacus egestas rhoncus convallis vitae ipsum. Phasellus nisi augue, feugiat ut quam id, viverra efficitur erat. Vestibulum lobortis auctor lacus eget interdum.</p>
-        </article>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="Date of Birth">
+                    </div>
+
+                    <div>
+                        <label for="state">State</label>
+                        <select name="state" id="state">
+                        <option value="Select Region" disabled>Select Region</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AR">AR</option>	
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DC">DC</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="IA">IA</option>	
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="MA">MA</option>
+                        <option value="MD">MD</option>
+                        <option value="ME">ME</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MO">MO</option>	
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="NC">NC</option>	
+                        <option value="NE">NE</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>			
+                        <option value="NV">NV</option>
+                        <option value="NY">NY</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WI">WI</option>	
+                        <option value="WV">WV</option>
+                        <option value="WY">WY</option>
+                    </select>
+                    </div>
+                    <div id="register-bt">
+                        <input type="submit" value="Register Now">
+                    </div>
+                </form>
+            </section>
+        </fieldset>
+
+
 
     </main>
 
     <footer w3-include-html="modules/footer.html">
     </footer>
-    
+
     <script src="script/w3.js"></script>
     <script src="script/wayfinding.js"></script>
     <script src="script/hamburger.js"></script>

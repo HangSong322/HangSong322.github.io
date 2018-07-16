@@ -2,102 +2,120 @@
 <html lang="en-us">
 
 <head w3-include-html="modules/head.html">
-      <title>Greenville Weather</title>
+    <title>Mountai Spoke Sales</title>
 </head>
 
 <body>
-    
     <header w3-include-html="modules/header.html">
     </header>
-    
+
     <nav w3-include-html="modules/navigation.html">
     </nav>
-    
+
     <main>
-        <h2>Spingfield</h2>
         <figure>
-            <img src="image/franklin-original.jpg" alt="Franklin Original" size="90vw" srcset="image/franklin-original-large.jpg 1024w,
-                         image/franklin-original-medium.jpg 800w,
-                         image/franklin-original-small.jpg 400w">
+            <img src="image/sale-head.jpg" alt="Sales" size="90vw" srcset="image/sale-head.jpg 1024w,
+                         image/sale-head.jpg 800w,
+                         image/sale-head.jpg 400w">
         </figure>
 
-        <section class="weather-summary">
-            <h3>Weather Summary</h3>
-            <div class="highlow">
-                <p>Current Tempereature: <span id="cTem"></span> &deg;F</p><br>
-                <p>High: <span id="highTem"></span>&deg;F</p><br>
-                <p>Low: <span id="lowTem"></span>&deg;F</p><br>
-            </div>
-            <div class="current">
-                <p><span id="weatherDesc"></span></p>
-                <picture>
-                    <img src="" alt="placeholder" id="weatherIcon">
-                </picture>
+        <section>
+            <fieldset class="sale-page">
+                <legend><button class="sale-bt" id="mountain-bike-btn">Mountain Bike</button></legend>
+                <div>
+                    <img src="image/mountain-bike.jpg" alt="Mountain Bike" class="mountain-bike-info">
+                    <article class="mountain-bike-info">
+                        <h2>Mountain Bike</h2>
+                        <p>Every Trek mountain bike is loaded with features and details that will make any ride, on any trail, better.</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Speed:</th>
+                                    <td>&#9733; &#9733; &#9734; &#9734; &#9734;</td>
+                                </tr>
+                                <tr>
+                                    <th>Handling:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                </tr>
+                                <tr>
+                                    <th>Performance:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="price">$1199.99</p>
+                    </article>
+                </div>
+            </fieldset>
 
-            </div>
-            <div class="conditions">
-                <p>Humidity: <span id="humidity"></span>%</p><br>
-                <p>Wind Speed: <span id="windSpeed"></span> mph</p><br>
-                <p>Wind Chill: <span id="windchill"></span>&deg;F </p><br>
-                <p>3 hour Forecast: <span id="forcastDesc"></span></p>
-            </div>
+            <fieldset class="sale-page">
+                <legend><button  class="sale-bt" id="road-bike-btn">Road Bicycle</button></legend>
+                <div>
+                    <img src="image/road-bike.jpg" alt="Road Bike" class="road-bike-info">
+                    <article class="road-bike-info">
+                        <h2 class="road-bike-info">Road Bike</h2>
+                        <p class="road-bike-info">Every Trek road bike is designed to deliver best-in-class performance, from our fastest hand-built carbon race machines to our refined aluminum models.</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Speed:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                </tr>
+                                <tr>
+                                    <th>Handling:</th>
+                                    <td>&#9733; &#9733; &#9734; &#9734; &#9734;</td>
+                                </tr>
+                                <tr>
+                                    <th>Performance:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="price">$2399.99</p>
+                    </article>
+                </div>
+            </fieldset>
+
+            <fieldset class="sale-page">
+                <legend><button class="sale-bt" id="hybrid-bike-btn">Hybrid Bicycle</button></legend>
+                <div>
+                    <img src="image/hybrid-bike.jpg" alt="Hybrid Bike" class="hybrid-bike-info">
+                    <article class="hybrid-bike-info">
+                        <h2 class="hybrid-bike-info">Hybrid Bike</h2>
+                        <p class="hybrid-bike-info">Trek hybrid bikes are versatile, easy-riding bikes that will carry you wherever you want to go. They prove to be light, fun, and comfortable companions mile after mile.</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Speed:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                </tr>
+                                <tr>
+                                    <th>Handling:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                </tr>
+                                <tr>
+                                    <th>Performance:</th>
+                                    <td>&#9733; &#9733; &#9733; &#9734; &#9734;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="price">$1499.89</p>
+                    </article>
+                </div>
+            </fieldset>
         </section>
-
-        <section class="forecast">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="10">Ten Day Forecast</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <th>Day 1</th>
-                        <th>Day 2</th>
-                        <th>Day 3</th>
-                        <th>Day 4</th>
-                        <th>Day 5</th>
-                        <th>Day 6</th>
-                        <th>Day 7</th>
-                        <th>Day 8</th>
-                        <th>Day 9</th>
-                        <th>Day 10</th>
-                    </tr>
-                    <tr>
-                        <td>89&deg;F</td>
-                        <td>87&deg;F</td>
-                        <td>78&deg;F</td>
-                        <td>75&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>79&deg;F</td>
-                        <td>83&deg;F</td>
-                        <td>85&deg;F</td>
-                        <td>89&deg;F</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <article>
-            <h3>Springfield, MN</h3>
-            <img src="image/gallery3.jpg" alt="Snow Picutre">
-            <p class="town-article">Nam eget tincidunt felis, in pretium mi. Suspendisse quis augue turpis. Integer sed nunc fermentum, elementum odio sed, molestie mauris. Sed id tellus quis nunc porta pretium. Proin hendrerit vulputate laoreet. Nam vestibulum sollicitudin lectus id posuere. Donec at cursus ligula, at lacinia turpis. Donec sed sapien placerat, molestie elit ac, aliquet est. Sed dignissim luctus aliquet. Donec tincidunt, lectus auctor feugiat varius, nunc leo ultrices elit, vitae accumsan tortor orci non erat. Nunc ex elit, hendrerit nec elementum venenatis, molestie ut sem. Phasellus a arcu vitae lacus egestas rhoncus convallis vitae ipsum. Phasellus nisi augue, feugiat ut quam id, viverra efficitur erat. Vestibulum lobortis auctor lacus eget interdum.</p>
-        </article>
-
     </main>
 
     <footer w3-include-html="modules/footer.html">
     </footer>
-    
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="script/sale.js"></script>
     <script src="script/w3.js"></script>
     <script src="script/wayfinding.js"></script>
     <script src="script/hamburger.js"></script>
     <script src="script/currentdate.js"></script>
-    <script src="script/openweathermap-s.js"></script>
     <script src="script/modularize.js"></script>
-
+    
 </body>
 
 </html>

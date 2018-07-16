@@ -11,7 +11,7 @@
         display: flex;
         background-color: darkgray;
     }
-    
+
 
     /* hamburger button does not need to be shown in the medium on up views */
     section.forecast {}
@@ -20,13 +20,39 @@
         width: 70%;
         height: 65%;
     }
-    
+
     #advpage {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-}
-/*
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+    main #eventpage #eventpg-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main #event-info {
+        display: block;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    main #event-info div,
+    main #event-info div h4,
+    main #event-info div p {
+        text-align: center;
+    }
+
+    main #event-info div {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    main #event-info form{
+        margin-top: 4%;
+    }
+
+    /*
     section.forecast {
         display: block;
     }
