@@ -414,6 +414,15 @@ main section .sale-page legend .sale-bt{
     min-width: 100%;
 }
 
+main .sale-page div article h2{
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
+
+main .sale-page div article table tbody tr th {
+    text-align: right;
+}
 
 /**/
 

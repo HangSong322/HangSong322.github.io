@@ -1,4 +1,4 @@
-var requestURL = 'mountainspoke/data/services.json';
+var requestURL = '/cit230/assignment/mountainspoke/data/services.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
