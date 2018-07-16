@@ -239,7 +239,7 @@ main #advpage article {
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    background-color: 
+    background-color:
 }
 
 main #advpage article h3 {
@@ -266,7 +266,8 @@ main #eventpage {
 }
 
 main #eventpage .eventpic {
-    width: 280px;;
+    width: 280px;
+    ;
     opacity: 0.6;
     filter: alpha(opacity=50);
 }
@@ -301,12 +302,13 @@ main #eventpage h3 {
     margin-top: 5%;
 }
 
-main #eventpage #eventpg-img{
+main #eventpage #eventpg-img {
     display: grid;
     grid-template-columns: 1fr;
 }
-main #eventpage #eventpg-img img{
-/*    margin: 1%;*/
+
+main #eventpage #eventpg-img img {
+    /*    margin: 1%;*/
 }
 
 #event-info img {
@@ -318,13 +320,14 @@ main #eventpage #eventpg-img img{
     text-align: left;
 }
 
-#event-info div h4, #event-info div p {
+#event-info div h4,
+#event-info div p {
     text-align: left;
     background-color: rgb(147, 142, 148, 0.3);
     font-family: 'Coda Caption', sans-serif;
 }
 
-#event-info div h4{
+#event-info div h4 {
     margin-top: 0;
     font-size: 60px;
 }
@@ -334,16 +337,17 @@ main #eventpage #eventpg-img img{
     font-size: 30px;
 }
 
-#event-info form div, #event-info form label {
+#event-info form div,
+#event-info form label {
     text-align: left;
     background-color: rgb(147, 142, 148, 0.3);
 }
 
-#event-info form div{
+#event-info form div {
     min-height: 32px;
 }
 
-#event-info form label{
+#event-info form label {
     align-content: center;
     text-align: left;
     width: 120px;
@@ -351,7 +355,8 @@ main #eventpage #eventpg-img img{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#event-info form input, select {
+#event-info form input,
+select {
     width: 170px;
     font-family: 'Nunito Sans', sans-serif;
     background-color: white;
@@ -388,17 +393,18 @@ main .sale-page div {
     display: flex;
 }
 
-main .sale-page div img{
-/*    display: none;*/
+main .sale-page div img {
+    /*    display: none;*/
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
     width: 35%;
-    height: 40%;;
+    height: 40%;
+    ;
 }
 
 main .sale-page div article {
-/*    display: none;*/
+    /*    display: none;*/
     max-width: 550px;
 }
 
@@ -407,14 +413,14 @@ main .sale-page div article p {
     margin-bottom: 5%;
 }
 
-main section .sale-page legend .sale-bt{
+main section .sale-page legend .sale-bt {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #7395AE;
     color: white;
     min-width: 100%;
 }
 
-main .sale-page div article h2{
+main .sale-page div article h2 {
     font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
     color: #B1A296;
@@ -424,6 +430,37 @@ main .sale-page div article table tbody tr th {
     text-align: right;
 }
 
+main #services-table table tr,
+main #services-table table th,
+main #services-table table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+main #services-table table {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+}
+
+main #services-table table thead th {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
+
+main #contact-page {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+main #contact-page h2 {
+    margin-bottom: 1%;
+}
+
+main iframe {
+    width: 97%;
+    margin-bottom: 3%;
+}
 /**/
 
 footer {

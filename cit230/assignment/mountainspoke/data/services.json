@@ -2,28 +2,28 @@
     "services": [
         {
             "name": "Drive Train Clean",
-            "mountain-bike-price": 32.99,
-            "road-bike-price": 46.99,
-            "hybrid-bike-price": 34.99
+            "mountainBikePrice": 32.99,
+            "roadBikePrice": 46.99,
+            "hybridBikePrice": 34.99
 
         },
         {
             "name": "Minor Tune",
-            "mountain-bike-price": 23.99,
-            "road-bike-price": 34.99,
-            "hybrid-bike-price": 38.99
+            "mountainBikePrice": 23.99,
+            "roadBikePrice": 34.99,
+            "hybridBikePrice": 38.99
         },
         {
             "name": "Major Tune",
-            "mountain-bike-price": 46.99,
-            "road-bike-price": 56.99,
-            "hybrid-bike-price": 48.99
+            "mountainBikePrice": 46.99,
+            "roadBikePrice": 56.99,
+            "hybridBikePrice": 48.99
         },
         {
             "name": "Major Overhaul",
-            "mountain-bike-price": 139.99,
-            "road-bike-price": 229.99,
-            "hybrid-bike-price": 199.99
-        },
+            "mountainBikePrice": 139.99,
+            "roadBikePrice": 229.99,
+            "hybridBikePrice": 199.99
+        }
                 ]
 }
