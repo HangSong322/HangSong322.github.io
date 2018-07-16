@@ -127,6 +127,14 @@ main {
     color: white;
 }
 
+main .index-link {
+    text-decoration: none;
+}
+
+main .index-link:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
 main #adventure img,
 #product img,
 #event div,
