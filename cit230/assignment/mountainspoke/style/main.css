@@ -481,14 +481,26 @@ main #thank-page #thankyou {
     margin-bottom: 3%;
 }
 
+main #resource-page li{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+main #resource-page li a{
+    color: white;
+}
 /**/
 
 footer {
     margin: auto;
     text-align: center;
     /*    margin-top: 20px;*/
-    color: floralwhite;
+    color: white;
     font-size: 13px
+}
+
+footer a {
+    color: white;
 }
 
 footer section,
