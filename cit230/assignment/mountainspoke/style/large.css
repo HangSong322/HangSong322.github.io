@@ -8,8 +8,8 @@
         font-size: 90px;
     }
 
-    main .index p {
-        font-size: 40px;
+    main .index-link .index div p {
+        font-size: 60px;
         text-align: justify;
     }
     main .index h2,
@@ -25,11 +25,11 @@
     main #event p {
         max-width: 420px;
     }
-    
-    main #event h2{
+
+    main #event h2 {
         font-size: 70px;
     }
-    main #event p{
+    main #event p {
         font-size: 40px;
     }
 
@@ -57,7 +57,9 @@
         margin-top: 2%;
     }
 
-
+    main .sale-page div {
+        display: flex;
+    }
 
 
 

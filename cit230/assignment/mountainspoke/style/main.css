@@ -397,9 +397,11 @@ main .sale-page legend {
     text-decoration: none;
 }
 
+/*
 main .sale-page div {
     display: flex;
 }
+*/
 
 main .sale-page div img {
     /*    display: none;*/
@@ -468,6 +470,11 @@ main #contact-page h2 {
 main iframe {
     width: 97%;
     margin-bottom: 3%;
+}
+
+main #thankyou {
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /**/

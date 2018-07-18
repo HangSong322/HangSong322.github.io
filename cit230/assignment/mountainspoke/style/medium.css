@@ -75,6 +75,17 @@ main .index p {
     main #event-info form{
         margin-top: 4%;
     }
+    
+    main .sale-page div img {
+    /*    display: none;*/
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: 45%;
+    height: 50%;
+    ;
+}
+
 
     /*
     section.forecast {
