@@ -55,7 +55,9 @@ nav {
 
 }
 
-nav button {}
+nav button {
+    background-color: darkgrey;
+}
 
 nav ul {
     text-align: center;
@@ -64,18 +66,19 @@ nav ul {
 
 nav ul.hide {
     display: none;
+    background-color: darkgrey;
 }
 
 nav ul li:hover {
     display: flex;
-    box-shadow: 1px 1px 1px gray;
+    box-shadow: 1px 1px 1px darkgrey;
     width: 70px;
     height: 30px;
     background-color: darkgrey;
 }
 
 nav ul li a {
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     color: #FFFFFF;
     font-stretch: extra-expanded;
@@ -472,9 +475,10 @@ main iframe {
     margin-bottom: 3%;
 }
 
-main #thankyou {
+main #thank-page #thankyou {
     font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 3%;
 }
 
 /**/
