@@ -489,6 +489,11 @@ main #resource-page li{
 main #resource-page li a{
     color: white;
 }
+
+main #contact-page h2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
 /**/
 
 footer {
