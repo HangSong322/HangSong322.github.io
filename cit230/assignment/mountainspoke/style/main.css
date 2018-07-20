@@ -494,6 +494,17 @@ main #contact-page h2{
     font-family: 'Nunito Sans', sans-serif;
     color: #B1A296;
 }
+
+main #vedio-head{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1A296;
+}
+
+main video {
+    width: 60%;
+    height: auto;
+    margin-bottom: 5%;
+}
 /**/
 
 footer {
