@@ -501,8 +501,8 @@ main #vedio-head{
 }
 
 main video {
-    width: 60%;
-    height: auto;
+    width: 50%;
+/*    height: auto;*/
     margin-bottom: 5%;
 }
 /**/
