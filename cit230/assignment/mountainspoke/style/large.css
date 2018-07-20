@@ -33,6 +33,9 @@
         font-size: 40px;
     }
 
+    main #event-info img{
+        width: 40%;
+    }
     main #advpage img {
         width: 80%;
         height: 75%;

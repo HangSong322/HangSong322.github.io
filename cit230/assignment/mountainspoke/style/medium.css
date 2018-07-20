@@ -60,6 +60,10 @@ main .index p {
         align-content: center;
         align-self: center;
     }
+    
+    main #event-info img{
+        width: 60%;
+    }
 
     main #event-info div,
     main #event-info div h4,
