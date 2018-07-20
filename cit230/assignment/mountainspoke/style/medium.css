@@ -48,7 +48,7 @@ main .index p {
     #advpage {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
+        grid-gap: 1px;
     }
     main #eventpage #eventpg-img {
         display: grid;
